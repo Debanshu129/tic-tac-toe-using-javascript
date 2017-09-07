@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>Tic Tac Toe</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body onload="startGame()">
+  <h1>Tic tac toe in JAVASCRIPT.</h1>
+  <div id="message">Message here.</div>
+  <table border="1">
+    <tr>
+      <td class="Square" id="s1" onclick="nextMove(this)"></td>
+      <td class="Square" id="s2" onclick="nextMove(this)"></td>
+      <td class="Square" id="s3" onclick="nextMove(this)"></td>
+    </tr>
+    <tr>
+      <td class="Square" id="s4" onclick="nextMove(this)"></td>
+      <td class="Square" id="s5" onclick="nextMove(this)"></td>
+      <td class="Square" id="s6" onclick="nextMove(this)"></td>
+    </tr>
+    <tr>
+      <td class="Square" id="s7" onclick="nextMove(this)"></td>
+      <td class="Square" id="s8" onclick="nextMove(this)"></td>
+      <td class="Square" id="s9" onclick="nextMove(this)"></td>
+    </tr>
+  </table>
+  <a href="javascript: startGame();" id="restart">Start Over</a>
+</body>
+</html>
